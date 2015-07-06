@@ -307,3 +307,9 @@ li {
 .note {
     border: 0;
 }
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px)  {
+    #content {
+        width: 95%;
+    }
+}
